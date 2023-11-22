@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.naima.etudiant.entities.Etudiant;
 
-@RepositoryRestController
+
 public interface EtudiantRepository extends JpaRepository<Etudiant, Integer>{
 
 }
