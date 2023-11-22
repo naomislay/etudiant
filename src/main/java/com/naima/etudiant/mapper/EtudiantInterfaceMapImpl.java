@@ -26,7 +26,7 @@ public class EtudiantInterfaceMapImpl implements EtudiantInterfaceMap{
 		// TODO Auto-generated method stub
 		EtudiantResponseDTO e = new EtudiantResponseDTO();
 		BeanUtils.copyProperties(etudiant, e);
-		return null;
+		return e;
 	}
 
 }
